@@ -9,29 +9,7 @@ const MERCADO_LIBRE_BASE = "https://listado.mercadolibre.com.ar/";
 window.GIFTS = [
   {"id":"uniforme-pantalon","nombre":"Pantalón del uniforme del jardín","estado":"Disponible","categoria":"Ropa y jardín","prioridad":"Alta","precio":"$$","edad":"2-3 años","icono":"👖","descripcion":"Pantalón del uniforme del jardín San Pedro TALLE 1.","caracteristicas":["Talle: 1","Se vende en Carrousel","Álvarez Jonte 4724, C1407"],"busqueda":"pantalón uniforme jardín niña","linkCompra":"https://www.instagram.com/p/DUS-ZUcDoHD/?igsh=c2NpeHhkeXV6Mmo5","imagen":"assets/img/productos/pantalon_san_pedro.jpg"},
   {"id":"remera-blanca-ml","nombre":"Remera manga larga blanca","estado":"Reservado","categoria":"Ropa y jardín","prioridad":"Alta","precio":"$","edad":"2-3 años","icono":"👕","descripcion":"Remera blanca manga larga para jardín y uso diario.","caracteristicas":["Manga larga","Color blanco liso","Algodón o tela suave","Cuello cómodo","Talle a confirmar"],"busqueda":"remera manga larga blanca niña 2 años","linkCompra":"","imagen":"assets/img/productos/ropa-y-jard-n.svg"},
-  {
-  "id": "babiators",
-  "nombre": "Lentes de sol Babiators",
-  "estado": "Disponible",
-  "categoria": "Playa y verano",
-  "prioridad": "Alta",
-  "precio": "$$$",
-  "edad": "3-5 años",
-  "icono": "🕶️",
-  "descripcion": "Lentes de sol infantiles Babiators en color Sweet Cream, ideales para playa, pileta y días de mucho sol.",
-  "caracteristicas": [
-    "Marca preferida: Babiators",
-    "Color: Sweet Cream",
-    "Talle recomendado: 3-5Y",
-    "Protección UV400",
-    "100% protección UVA/UVB",
-    "Montura flexible",
-    "Lentes resistentes a impacto"
-  ],
-  "busqueda": "Babiators Sweet Cream 3-5Y",
-  "linkCompra": "https://tiendamia.com.uy/p/amz/b0dtrfc1ql",
-  "imagen": "assets/img/productos/lentes.jpg"
-},
+  {  "id": "babiators", "nombre": "Lentes de sol Babiators",   "estado": "Disponible",   "categoria": "Playa y verano",   "prioridad": "Alta",  "precio": "$$$", "edad": "3-5 años","icono": "🕶️",  "descripcion": "Lentes de sol infantiles Babiators en color Sweet Cream, ideales para playa, pileta y días de mucho sol.","caracteristicas": [    "Marca preferida: Babiators",    "Color: Sweet Cream",    "Talle recomendado: 3-5Y",    "Protección UV400",    "100% protección UVA/UVB",    "Montura flexible",    "Lentes resistentes a impacto"  ],  "busqueda": "Babiators Sweet Cream 3-5Y",  "linkCompra": "https://tiendamia.com.uy/p/amz/b0dtrfc1ql",  "imagen": "assets/img/productos/lentes.jpg"},
   {"id":"gorra-uv","nombre":"Gorra con protección UV","estado":"Reservado","categoria":"Playa y verano","prioridad":"Alta","precio":"$$","edad":"2-4 años","icono":"🧢","descripcion":"Gorra o sombrero para proteger cara y cabeza en días de sol.","caracteristicas":["Protección UV preferentemente UPF 50+","Ala amplia o tipo legionaria","Buen ajuste, que no se vuele","Tela fresca y lavable","Color claro o combinable"],"busqueda":"gorra protección UV niña 2 años","linkCompra":"","imagen":"assets/img/productos/playa-y-verano.svg"},
   {"id":"gorra-visera-canchera","nombre":"Gorra con visera canchera","estado":"Disponible","categoria":"Ropa y accesorios","prioridad":"Media","precio":"$$","edad":"2-4 años","icono":"🧢","descripcion":"Gorra con visera para uso diario, salidas y fotos.","caracteristicas":["No necesariamente UV","Diseño lindo/canchero","Buen ajuste","Tela cómoda","Talle infantil 2-4 años"],"busqueda":"gorra visera niña 2 años canchera","linkCompra":"","imagen":"assets/img/productos/ropa-y-accesorios.svg"},
   {"id":"malla-uv","nombre":"Malla enteriza con protección UV","estado":"Reservado","categoria":"Playa y verano","prioridad":"Alta","precio":"$$","edad":"2-3 años","icono":"🩱","descripcion":"Malla o traje de baño enterizo para pileta y vacaciones en la playa.","caracteristicas":["Tela con protección UV preferentemente UPF 50+","Enteriza o con buena cobertura","Cómoda para moverse","Secado rápido","Talle 2-3 años a confirmar"],"busqueda":"malla enteriza protección UV niña 2 años","linkCompra":"","imagen":"assets/img/productos/playa-y-verano.svg"},
@@ -64,6 +42,6 @@ window.GIFTS = [
   {"id":"bingo-ilustrado","nombre":"Bingo ilustrado","estado":"Disponible","categoria":"Juegos didácticos","prioridad":"Baja","precio":"$","edad":"3+ años","icono":"🎲","descripcion":"Bingo con imágenes grandes para jugar en familia.","caracteristicas":["Imágenes claras","Cartones resistentes","Pocas reglas","Apto 3+ años","Ideal animales/objetos cotidianos"],"busqueda":"bingo ilustrado infantil","linkCompra":"","imagen":"assets/img/productos/juegos-did-cticos.svg"},
   {"id":"disfraz","nombre":"Disfraz","estado":"Disponible","categoria":"Juego simbólico","prioridad":"Media","precio":"$$","edad":"2-4 años","icono":"🩺","descripcion":"Disfraz de médica, veterinaria, cocinera u otro rol.","caracteristicas":["Talle 2-4 años","Tela cómoda","Fácil de poner y sacar","Accesorios seguros","Preferencia: médica, veterinaria o cocinera"],"busqueda":"disfraz infantil médica veterinaria cocinera","linkCompra":"","imagen":"assets/img/productos/juego-simb-lico.svg"},
   {"id":"jardineria","nombre":"Kit de jardinería infantil","estado":"Disponible","categoria":"Exploración","prioridad":"Media","precio":"$$","edad":"2+ años","icono":"🌱","descripcion":"Palita, rastrillo, regadera y guantes pequeños.","caracteristicas":["Herramientas de tamaño infantil","Bordes seguros","Regadera liviana","Material resistente","Ideal para patio o macetas"],"busqueda":"kit jardinería infantil","linkCompra":"","imagen":"assets/img/productos/exploraci-n.svg"},
-  {"id":"toy-story-buddy","nombre":"Muñeco Toy Story Buddy","estado":"Reservado","categoria":"Personajes y muñecos","prioridad":"Media","precio":"$$","edad":"2+ años","icono":"🤠","descripcion":"Muñeco de personaje Toy Story para juego simbólico.","caracteristicas":["Personaje: Buddy/Woody según disponibilidad","Tamaño infantil","Material resistente","Sin piezas pequeñas peligrosas","Apto para 2+ años"],"busqueda":"muñeco toy story buddy woody","linkCompra":"","imagen":"assets/img/productos/personajes-y-mu-ecos.svg"},
-  {"id":"toy-story-jessie","nombre":"Muñeco Toy Story Jessie","estado":"Reservado","categoria":"Personajes y muñecos","prioridad":"Media","precio":"$$","edad":"2+ años","icono":"👢","descripcion":"Muñeca Jessie de Toy Story para juego simbólico.","caracteristicas":["Personaje: Jessie","Tamaño infantil","Material resistente","Sin piezas pequeñas peligrosas","Apto para 2+ años"],"busqueda":"muñeco toy story jessie","linkCompra":"","imagen":"assets/img/productos/personajes-y-mu-ecos.svg"}
+  {"id":"toy-story-buddy","nombre":"Muñeco Toy Story Woody","estado":"Comprado","categoria":"Personajes y muñecos","prioridad":"Media","precio":"$$","edad":"2+ años","icono":"🤠","descripcion":"Muñeco de personaje Toy Story para juego simbólico.","caracteristicas":["Personaje: Woody según disponibilidad","Tamaño infantil","Material resistente","Sin piezas pequeñas peligrosas","Apto para 2+ años"],"busqueda":"muñeco toy story buddy woody","linkCompra":"","imagen":"assets/img/productos/woody.png"},
+  {"id":"toy-story-jessie","nombre":"Muñeco Toy Story Jessie","estado":"Comprado","categoria":"Personajes y muñecos","prioridad":"Media","precio":"$$","edad":"2+ años","icono":"👢","descripcion":"Muñeca Jessie de Toy Story para juego simbólico.","caracteristicas":["Personaje: Jessie","Tamaño infantil","Material resistente","Sin piezas pequeñas peligrosas","Apto para 2+ años"],"busqueda":"muñeco toy story jessie","linkCompra":"","imagen":"assets/img/productos/jessie.png"}
 ];
