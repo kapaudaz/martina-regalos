@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Regalos para Martina</title>
+  <meta name="description" content="Lista de regalos para el cumpleaños de Martina" />
+  <meta property="og:title" content="Regalos para Martina" />
+  <meta property="og:description" content="Ideas de regalos para el cumpleaños de Martina." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__pattern" aria-hidden="true"></div>
+    <div class="hero__card">
+      <p class="eyebrow">Cumpleaños de</p>
+      <h1>Martina</h1>
+      <p class="subtitle">Lista de regalos</p>
+      <p class="lead">Lo más importante es compartir este día. Si querés hacerle un regalo, dejamos algunas ideas útiles para esta etapa.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#regalos">Ver regalos</a>
+        <a class="btn btn--secondary" href="#como-funciona">Cómo reservar</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="summary" aria-label="Resumen de la lista">
+      <div class="summary__item"><strong id="totalCount">0</strong><span>regalos</span></div>
+      <div class="summary__item"><strong id="availableCount">0</strong><span>disponibles</span></div>
+      <div class="summary__item"><strong id="reservedCount">0</strong><span>reservados</span></div>
+      <div class="summary__item"><strong id="boughtCount">0</strong><span>comprados</span></div>
+    </section>
+
+    <section class="intro" id="como-funciona">
+      <div>
+        <h2>Cómo funciona</h2>
+        <p>Elegí una idea y tocá <strong>“Quiero regalar este”</strong>. Se abre WhatsApp con un mensaje listo para confirmar disponibilidad.</p>
+        <p>Los regalos ya elegidos aparecen con una marca visible y el botón de reserva deshabilitado para evitar duplicados.</p>
+      </div>
+      <div class="legend" aria-label="Referencia de estados">
+        <span><i class="dot dot--available"></i>Disponible</span>
+        <span><i class="dot dot--reserved"></i>Reservado</span>
+        <span><i class="dot dot--bought"></i>Comprado</span>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Filtros de regalos">
+      <input id="search" type="search" placeholder="Buscar regalo, categoría o característica..." aria-label="Buscar regalo" />
+      <select id="statusFilter" aria-label="Filtrar por estado">
+        <option value="Todos">Todos los estados</option>
+        <option value="Disponible">Disponibles</option>
+        <option value="Reservado">Reservados</option>
+        <option value="Comprado">Comprados</option>
+      </select>
+      <select id="priorityFilter" aria-label="Filtrar por prioridad">
+        <option value="Todas">Todas las prioridades</option>
+        <option value="Alta">Prioridad alta</option>
+        <option value="Media">Prioridad media</option>
+        <option value="Baja">Prioridad baja</option>
+      </select>
+      <div class="chips" id="chips"></div>
+    </section>
+
+    <section class="gift-section" id="regalos">
+      <div class="section-title">
+        <div>
+          <p class="kicker">Catálogo</p>
+          <h2>Ideas de regalos</h2>
+          <p><span id="count"></span> ideas visibles según los filtros actuales.</p>
+        </div>
+      </div>
+      <div class="grid" id="giftGrid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Gracias por acompañarnos.</p>
+  </footer>
+
+  <script src="gifts.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
