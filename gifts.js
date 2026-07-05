@@ -9,7 +9,29 @@ const MERCADO_LIBRE_BASE = "https://listado.mercadolibre.com.ar/";
 window.GIFTS = [
   {"id":"uniforme-pantalon","nombre":"Pantalón del uniforme del jardín","estado":"Disponible","categoria":"Ropa y jardín","prioridad":"Alta","precio":"$$","edad":"2-3 años","icono":"👖","descripcion":"Pantalón del uniforme del jardín San Pedro TALLE 1.","caracteristicas":["Talle: 1","Se vende en Carrousel","Álvarez Jonte 4724, C1407"],"busqueda":"pantalón uniforme jardín niña","linkCompra":"https://www.instagram.com/p/DUS-ZUcDoHD/?igsh=c2NpeHhkeXV6Mmo5","imagen":"assets/img/productos/pantalon_san_pedro.jpg"},
   {"id":"remera-blanca-ml","nombre":"Remera manga larga blanca","estado":"Reservado","categoria":"Ropa y jardín","prioridad":"Alta","precio":"$","edad":"2-3 años","icono":"👕","descripcion":"Remera blanca manga larga para jardín y uso diario.","caracteristicas":["Manga larga","Color blanco liso","Algodón o tela suave","Cuello cómodo","Talle a confirmar"],"busqueda":"remera manga larga blanca niña 2 años","linkCompra":"","imagen":"assets/img/productos/ropa-y-jard-n.svg"},
-  {"id":"babiators","nombre":"Lentes de sol Babiators","estado":"Disponible","categoria":"Playa y verano","prioridad":"Alta","precio":"$$$","edad":"0-3 / 3-5 años","icono":"🕶️","descripcion":"Lentes infantiles para playa, plaza y días de mucho sol.","caracteristicas":["Marca preferida: Babiators","Protección UV400 / 100% UVA-UVB","Idealmente polarizados","Material flexible o policarbonato","Color neutro o claro"],"busqueda":"Babiators lentes sol infantil UV400 Argentina","linkCompra":"","imagen":"assets/img/productos/playa-y-verano.svg"},
+  {
+  "id": "babiators",
+  "nombre": "Lentes de sol Babiators",
+  "estado": "Disponible",
+  "categoria": "Playa y verano",
+  "prioridad": "Alta",
+  "precio": "$$$",
+  "edad": "3-5 años",
+  "icono": "🕶️",
+  "descripcion": "Lentes de sol infantiles Babiators en color Sweet Cream, ideales para playa, pileta y días de mucho sol.",
+  "caracteristicas": [
+    "Marca preferida: Babiators",
+    "Color: Sweet Cream",
+    "Talle recomendado: 3-5Y",
+    "Protección UV400",
+    "100% protección UVA/UVB",
+    "Montura flexible",
+    "Lentes resistentes a impacto"
+  ],
+  "busqueda": "Babiators Sweet Cream 3-5Y",
+  "linkCompra": "https://tiendamia.com.uy/p/amz/b0dtrfc1ql",
+  "imagen": "https://m.media-amazon.com/images/I/51JdTVAJcNL._SY250_.jpg"
+},
   {"id":"gorra-uv","nombre":"Gorra con protección UV","estado":"Reservado","categoria":"Playa y verano","prioridad":"Alta","precio":"$$","edad":"2-4 años","icono":"🧢","descripcion":"Gorra o sombrero para proteger cara y cabeza en días de sol.","caracteristicas":["Protección UV preferentemente UPF 50+","Ala amplia o tipo legionaria","Buen ajuste, que no se vuele","Tela fresca y lavable","Color claro o combinable"],"busqueda":"gorra protección UV niña 2 años","linkCompra":"","imagen":"assets/img/productos/playa-y-verano.svg"},
   {"id":"gorra-visera-canchera","nombre":"Gorra con visera canchera","estado":"Disponible","categoria":"Ropa y accesorios","prioridad":"Media","precio":"$$","edad":"2-4 años","icono":"🧢","descripcion":"Gorra con visera para uso diario, salidas y fotos.","caracteristicas":["No necesariamente UV","Diseño lindo/canchero","Buen ajuste","Tela cómoda","Talle infantil 2-4 años"],"busqueda":"gorra visera niña 2 años canchera","linkCompra":"","imagen":"assets/img/productos/ropa-y-accesorios.svg"},
   {"id":"malla-uv","nombre":"Malla enteriza con protección UV","estado":"Reservado","categoria":"Playa y verano","prioridad":"Alta","precio":"$$","edad":"2-3 años","icono":"🩱","descripcion":"Malla o traje de baño enterizo para pileta y vacaciones en la playa.","caracteristicas":["Tela con protección UV preferentemente UPF 50+","Enteriza o con buena cobertura","Cómoda para moverse","Secado rápido","Talle 2-3 años a confirmar"],"busqueda":"malla enteriza protección UV niña 2 años","linkCompra":"","imagen":"assets/img/productos/playa-y-verano.svg"},
