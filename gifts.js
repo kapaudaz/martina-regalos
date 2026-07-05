@@ -30,7 +30,7 @@ window.GIFTS = [
   ],
   "busqueda": "Babiators Sweet Cream 3-5Y",
   "linkCompra": "https://tiendamia.com.uy/p/amz/b0dtrfc1ql",
-  "imagen": "https://m.media-amazon.com/images/I/51JdTVAJcNL._SY250_.jpg"
+  "imagen": "assets/img/productos/lentes.jpg"
 },
   {"id":"gorra-uv","nombre":"Gorra con protección UV","estado":"Reservado","categoria":"Playa y verano","prioridad":"Alta","precio":"$$","edad":"2-4 años","icono":"🧢","descripcion":"Gorra o sombrero para proteger cara y cabeza en días de sol.","caracteristicas":["Protección UV preferentemente UPF 50+","Ala amplia o tipo legionaria","Buen ajuste, que no se vuele","Tela fresca y lavable","Color claro o combinable"],"busqueda":"gorra protección UV niña 2 años","linkCompra":"","imagen":"assets/img/productos/playa-y-verano.svg"},
   {"id":"gorra-visera-canchera","nombre":"Gorra con visera canchera","estado":"Disponible","categoria":"Ropa y accesorios","prioridad":"Media","precio":"$$","edad":"2-4 años","icono":"🧢","descripcion":"Gorra con visera para uso diario, salidas y fotos.","caracteristicas":["No necesariamente UV","Diseño lindo/canchero","Buen ajuste","Tela cómoda","Talle infantil 2-4 años"],"busqueda":"gorra visera niña 2 años canchera","linkCompra":"","imagen":"assets/img/productos/ropa-y-accesorios.svg"},
